@@ -68,21 +68,23 @@ The increased connections to MySQL probably has something to do with the Redis C
 
 ![](images/CA_SRE_2024_Workshop_Redis_Cache.png)
 
+</br>
+
 ![](images/CA_SRE_2024_Workshop_Redis_Uptime.png)
 
-2c: Find the root cause
+## 2c: Find the root cause
 
 This should provide you with a reasonable amount of debugging info to go on with.  Use your experience as an SRE, make reasonable assumptions about the architecture and the problem at hand and figure out possible root causes for this.
 
-2d: Figure out remediation steps
+## 2d: Figure out remediation steps
 
 Once the root cause is found, figure out what can remediate the issue.  Once done the incident is marked resolved ( pending postmortem )
 
-2e: Communicate to the leadership
+## 2e: Communicate to the leadership
 
 Once the issue is stable/remediation steps are found out, send out another communication to the leadership
 
-2f: Write a postmortem report
+## 2f: Write a postmortem report
 
 |||
 |---|---|
