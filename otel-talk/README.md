@@ -28,11 +28,11 @@ docker run -d --name jaeger \
 ```
 
 ```
-git clone git@gitlab.com:learnxp/py/ca-sre24.git
+git clone git@github.com:safeercm/sre-summit-canada-2024.git
 ```
 
 ```
-cd otel
+cd otel-talk
 
 python3 -m venv .venv2
 source .venv2/bin/activate
